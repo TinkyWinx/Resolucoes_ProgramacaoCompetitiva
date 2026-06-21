@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    double renda, imposto1,imposto2,imposto3,aux1,aux2, totalImp;
+    double renda, imposto1, imposto2, imposto3, aux1, aux2, totalImp;
     scanf ("%lf", &renda);
     
       if ( renda <= 2000.00){
