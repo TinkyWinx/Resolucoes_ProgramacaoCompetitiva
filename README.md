@@ -1,2 +1,4 @@
 # Resolucoes_ProgramacaoCompetitiva
-Espaço que dedicarei meus códigos resolvidos nas minhas aulas de programação competitiva ;)
+Espaço que dedicarei meus códigos em C das minhas aulas de programação competitiva ;)
+Que a palava de C esteja convosco 🙏
+
