@@ -2,16 +2,16 @@
 
 int main(){
   int n,x,soma,i;
-  int in = 0, out = 0;
+  int in = 0, out = 0; // inicialização
   scanf("%d",&n);
   
-  for (i = 1 ; i <= n ; i++){
+  for (i = 1 ; i <= n ; i++){ // contador de testes
     scanf ("%d", &x);
       
-      if (x >= 10 && x <= 20){
-        in++;
+      if (x >= 10 && x <= 20){ // intervalo pedido no prblema
+        in++; // incrementa quando verdade 
     } else {
-        out++;
+        out++; 
     }
   }
   printf ("%d in\n",in);
