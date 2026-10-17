@@ -12,16 +12,16 @@ int main(){
     scanf("%d %c", &m, &l);
     
       if (l == 'D'){
-        direita[m]++;
+        direita[m]++; // aqui pega a quantidade de todos os tenis com o mesmo numero e o mesmo lado
       } else {
         esquerda[m]++;
       }
     }
       total = 0;
       
-    for(i = 30 ; i <=60 ; i++){
+    for(i = 30 ; i <= 60 ; i++){ // faixa de possiveis numeros de tenis [30,60]
       
-      if(direita[i] < esquerda[i]){
+      if(direita[i] < esquerda[i]){ // como juntei os numeros dos tenis, o menor deles vai ser a quantidade de par, pois ambos precisam de si
         total += direita[i];
       } else{
         total += esquerda[i];
@@ -31,3 +31,5 @@ int main(){
   }
   return 0;
 }
+
+// vetores deuxa o codigo fei :(
